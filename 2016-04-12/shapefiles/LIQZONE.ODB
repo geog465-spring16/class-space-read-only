@@ -1,0 +1,327 @@
+/3.0
+(ODB.1
+	FirstRootClassName:	"List"
+	Roots:	2
+	Version:	30
+)
+
+(List.2
+	Child:	3
+)
+
+(FTheme.3
+	Name:	"Liquifaction Zones"
+	Source:	4
+	Flags:	0x07
+	Legend:	17
+	Threshold:	31
+	View:	32
+	GSet:	42
+	LegEditScript:	"View.EditLegend"
+	TxPos:	43
+	AttrRules:	44
+	AttrRules:	45
+	AttrRules:	46
+	AttrRules:	47
+	AttrRules:	48
+)
+
+(ShpSrc.4
+	Name:	5
+	FTab:	7
+)
+
+(SrcName.5
+	FileName:	6
+	Name:	"liqzone.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.6
+	Path:	"s:/data/themes/terrain/liqzone.shp"
+)
+
+(FTab.7
+	Name:	"liqzone.dbf"
+	BTab:	8
+	Fields:	15
+	Fields:	9
+	Fields:	10
+	Fields:	11
+	Fields:	12
+	Fields:	13
+	SelBits:	16
+	FSrc:	4
+)
+
+(dBASE.8
+	Name:	"liqzone.dbf"
+	Fields:	9
+	Fields:	10
+	Fields:	11
+	Fields:	12
+	Fields:	13
+	FileName:	14
+)
+
+(Field.9
+	Name:	"Area"
+	Btab:	8
+	Alias:	"Area"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.10
+	Name:	"Perimeter"
+	Btab:	8
+	Alias:	"Perimeter"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.11
+	Name:	"Liqzone_"
+	Btab:	8
+	Alias:	"Liqzone_"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.12
+	Name:	"Liqzone_id"
+	Btab:	8
+	Alias:	"Liqzone_id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.13
+	Name:	"Color"
+	Btab:	8
+	Alias:	"Color"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.14
+	Path:	"s:/data/themes/terrain/liqzone.dbf"
+)
+
+(Field.15
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.16
+	NumBits:	59
+
+)
+
+(Legend.17
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	18
+	Class:	24
+	StdDevs:	1.00000000000000
+	NullSym:	25
+	NullValues:	29
+	StatValues:	30
+	Precision:	-3
+)
+
+(SymList.18
+	Child:	19
+)
+
+(BShSym.19
+	Color:	20
+	Outline:	1
+	OutlineColor:	21
+	OutlineWidth:	0.10000000000000
+	BgColor:	22
+	Style:	0x03
+	Stipple:	23
+)
+
+(TClr.20
+	Red:	0xb97
+	Green:	0xbbe
+	Blue:	0xa270
+)
+
+(TClr.21
+)
+
+(TClr.22
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.23
+	Columns:	8
+	Rows:	8
+	Bits:	10800420 02400801 
+)
+
+(LClass.24
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.25
+	Color:	26
+	Outline:	1
+	OutlineColor:	27
+	OutlineWidth:	0.10000000000000
+	BgColor:	28
+)
+
+(TClr.26
+	Name:	"Transparent"
+)
+
+(TClr.27
+	Name:	"Transparent"
+)
+
+(TClr.28
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.29
+)
+
+(NameDict.30
+)
+
+(Thresh.31
+)
+
+(View.32
+	Name:	"View2"
+	Creator:	"DIETZKC"
+	CreationDate:	"Thursday, December 12, 1996 12:17:27"
+	GUIName:	"View"
+	Win:	33
+	CSMgr:	34
+	Graphics:	35
+	Theme:	3
+	Dpy:	36
+	TOCWidth:	150
+)
+
+(DocWin.33
+	Owner:	32
+	Open:	1
+	X:	5
+	Y:	5
+	W:	478
+	H:	281
+)
+
+(CSMgr.34
+)
+
+(GList.35
+	Dpy:	36
+	FormatNumb:	41
+)
+
+(MapDpy.36
+	Left:	1243171.11999775000000
+	Bottom:	180574.97563451715000
+	Top:	275584.42968052084000
+	Right:	1294905.88002524990000
+	Scale:	37
+	FrameTop:	2.60416666666667
+	FrameRight:	3.26041666666667
+	PageDpy:	38
+	FitToPage:	1
+	MouseLoc:	40
+)
+
+(Numb.37
+	N:	0.00002740955301
+)
+
+(PageDpy.38
+	Top:	2.60416666666667
+	Right:	3.26041666666667
+	ReportUnits:	1
+	Units:	1
+	Scale:	39
+	ZoomRight:	3.26041666666667
+	ZoomTop:	2.60416666666667
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.39
+	N:	96.00000000000000
+)
+
+(PointD.40
+	x:	1248326.43902947100000
+	y:	275204.39186433685000
+)
+
+(Numb.41
+)
+
+(GSet.42
+)
+
+(TxPosPly.43
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.44
+	FTab:	7
+	Field:	9
+	UnionRule:	5
+	SplitRule:	3
+)
+
+(AttrSingle.45
+	FTab:	7
+	Field:	10
+	UnionRule:	6
+	SplitRule:	4
+)
+
+(AttrSingle.46
+	FTab:	7
+	Field:	11
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.47
+	FTab:	7
+	Field:	12
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.48
+	FTab:	7
+	Field:	13
+	UnionRule:	1
+	SplitRule:	1
+)
+
